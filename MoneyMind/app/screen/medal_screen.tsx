@@ -1,9 +1,9 @@
 import {View, Text} from 'react-native';
 
-export default function learn(){
+export default function medals(){
     return(
         <View>
-            <Text>learn screen</Text>
+            <Text>medals screen</Text>
         </View>
     );
 }
