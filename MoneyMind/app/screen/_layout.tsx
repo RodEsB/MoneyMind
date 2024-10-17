@@ -8,9 +8,15 @@ export default function RootLayout(){
             options={{headerShown: true , title: 'Shop'}}
             />
             <Stack.Screen
-            name='(screen)'
+            name='screen'
             options={{headerShown: true , title: 'Screen'}}
             />
+            <Stack.Screen
+            name='header'
+            options={{presentation: 'modal', title:'header'}}
+            />
+
+
         </Stack>
 
     );
